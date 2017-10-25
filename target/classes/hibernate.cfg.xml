@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://192.168.126.128:3306/vsteam_admin</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <mapping class="cn.vsteam.admin.p.entity.StatisticsPlayer"/>
+    <mapping class="cn.vsteam.admin.p.entity.User"/>
+    <mapping class="cn.vsteam.admin.p.entity.Team"/>
+    <mapping class="cn.vsteam.admin.p.entity.Game"/>
+    <mapping class="cn.vsteam.admin.p.entity.Practice"/>
+    <mapping class="cn.vsteam.admin.p.entity.FootballTeam"/>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

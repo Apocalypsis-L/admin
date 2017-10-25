@@ -1,0 +1,21 @@
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+  datasource:
+    primary:
+      username: web2
+      password: Vsteam2015
+      url: jdbc:mysql://120.25.123.43:3306/vsteam_db?useUnicode=true&characterEncoding=UTF-8
+      driver-class-name: com.mysql.jdbc.Driver
+    secondary:
+      username: root
+      password: 123456
+      url: jdbc:mysql://192.168.126.128:3306/vsteam_admin?useUnicode=true&characterEncoding=UTF-8
+      driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+
+

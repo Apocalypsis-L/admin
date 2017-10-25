@@ -1,0 +1,7 @@
+表结构为RBAC标准模式：
+User            用户表(uid)
+Role            角色表(rid)
+Permission      权限表(pid)
+UserRole        用户角色关联表(urid,uid,rid)
+RolePermission  角色权限关联表(rpid,rid,pid)
+现为基本结构，字段可扩展；

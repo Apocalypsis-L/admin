@@ -1,0 +1,5 @@
+
+静态页面中
+login.html为单独下载的登录页面，静态资源对应loginresource目录；
+cn.vsteam.admin.report.html为自己创建的报表页面，目前用于测试ajax获取数据，js在mjs.js；
+其他为后台管理模块相关页面，静态资源对应assets目录；
