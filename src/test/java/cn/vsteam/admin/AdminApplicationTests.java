@@ -4,8 +4,6 @@ import cn.vsteam.admin.p.service.InvitationService;
 import cn.vsteam.admin.p.service.TeamService;
 import cn.vsteam.admin.p.service.TokensService;
 import cn.vsteam.admin.p.service.UserService;
-import cn.vsteam.admin.utils.upload.ExcelUtil;
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -26,16 +24,16 @@ public class AdminApplicationTests {
     @Autowired
     private InvitationService invitationService;
 
-    @Test
-    public void post() {
-        ExcelUtil o = new ExcelUtil(teamService, userService, tokensService, invitationService);
-        o.regist();
-    }
-
-    @Test
-    public void find(){
-        ExcelUtil o = new ExcelUtil(teamService, userService, tokensService, invitationService);
-        o.findError();
-    }
+//    @Test
+//    public void post() {
+//        ExcelUtil o = new ExcelUtil(teamService, userService, tokensService, invitationService);
+//        o.regist();
+//    }
+//
+//    @Test
+//    public void find(){
+//        ExcelUtil o = new ExcelUtil(teamService, userService, tokensService, invitationService);
+//        o.findError();
+//    }
 
 }

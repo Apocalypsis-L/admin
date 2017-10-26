@@ -34,7 +34,7 @@ public class ExcelUtil {
     // 格式化数字
     private static DecimalFormat nf = new DecimalFormat("0.00");
 
-    private static String IP = "www.vsteam.cn";
+    private static String IP = "localhost";
 //    @Autowired
 //    private RestTemplate template;
 

@@ -4,9 +4,9 @@ spring:
     cache: false
   datasource:
     primary:
-      username: web2
-      password: Vsteam2015
-      url: jdbc:mysql://120.25.123.43:3306/vsteam_db?useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: 123456
+      url: jdbc:mysql://192.168.126.128:3306/vsteam_db?useUnicode=true&characterEncoding=UTF-8
       driver-class-name: com.mysql.jdbc.Driver
     secondary:
       username: root
@@ -17,5 +17,19 @@ spring:
     hibernate:
       ddl-auto: none
     show-sql: false
+  rabbitmq:
+    host: 192.168.126.128
+    port: 5672
+    virtual-host: /
+    username: root
+    password: root
+    addresses: 192.168.126.128:5672
+    publisher-confirms: true
+  redis:
+    host: 192.168.126.128
+    port: 6379
+    database: 1
+
+
 
 

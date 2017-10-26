@@ -1,0 +1,24 @@
+微服务
+
+问题：
+拆分粒度；
+事务管理；
+如果数据库拆分，外键怎么处理；
+
+
+
+zookeeper 服务注册中心
+服务注册
+服务负载均衡
+服务监控
+
+netty
+NIO框架
+TCP、UDP文件传输支持
+
+
+WSO2,SOA面向服务架构，WebService,springmvc,hibernate,jdbc
+
+springmvc,spring-aop,hibernate,redis,mysql,jdbc,RESTFul,nginx负载均衡
+
+spring boot,spring boot data jpa,spring security,thymeleaf,jquery,ajax

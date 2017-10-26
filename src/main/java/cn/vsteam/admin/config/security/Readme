@@ -4,7 +4,7 @@ Spring Boot 与 Spring Security 集成，实现登录与权限管理；
 Class SecurityConfig 继承 WebSecurityConfigurerAdapter , 为Spring Security的配置相关,详见注释;
 注意点:
     1.http.csrf().disable() ban掉了csrf,以取消使用Spring Security内置的logout时因没传入csrf token而返回403的问题,
-    但应该重写logout的RequestMapping,用post方法传token，安全性更高，留待改进；
+    但应该重写logout的RequestMapping,用post方法传token，安全性更高，留待改进(已完成)；
     2.http.antMatchers("/assets/**", "/loginresource/**").permitAll();取消了静态资源的拦截,否则login页面加载不到
     css等文件,登陆后又会直接下载相关文件;(重写configure(WebSecurity web)，web.ignoring().antMatchers("/assets/**", "/loginresource/**")效果相同)
     3.用户角色操作权限问题,目前使用方法注解@PreAuthorize("hasRole('admin')")成功,使用配置失败,后续继续尝试SecurityConfig
