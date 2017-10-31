@@ -1,7 +1,7 @@
 package cn.vsteam.admin.usermanager.service;
 
-import cn.vsteam.admin.s.dao.UserRoleDAO;
-import cn.vsteam.admin.s.entity.UserRole;
+import cn.vsteam.admin.secondary.dao.UserRoleDAO;
+import cn.vsteam.admin.secondary.entity.UserRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,13 +1,13 @@
 package cn.vsteam.admin.utils.upload;
 
-import cn.vsteam.admin.p.entity.Invitation;
-import cn.vsteam.admin.p.entity.Team;
-import cn.vsteam.admin.p.entity.Tokens;
-import cn.vsteam.admin.p.entity.User;
-import cn.vsteam.admin.p.service.InvitationService;
-import cn.vsteam.admin.p.service.TeamService;
-import cn.vsteam.admin.p.service.TokensService;
-import cn.vsteam.admin.p.service.UserService;
+import cn.vsteam.admin.primary.entity.Invitation;
+import cn.vsteam.admin.primary.entity.Team;
+import cn.vsteam.admin.primary.entity.Tokens;
+import cn.vsteam.admin.primary.entity.User;
+import cn.vsteam.admin.primary.service.InvitationService;
+import cn.vsteam.admin.primary.service.TeamService;
+import cn.vsteam.admin.primary.service.TokensService;
+import cn.vsteam.admin.primary.service.UserService;
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;

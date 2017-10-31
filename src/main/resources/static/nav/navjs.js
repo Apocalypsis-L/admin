@@ -110,10 +110,10 @@ document.write("<nav class=\"navbar navbar-default top-navbar\" role=\"navigatio
     "    <li>\n" +
     "        <a href=\"#\">\n" +
     "            <div>\n" +
-    "                <p>\n" +
+    "                <primary>\n" +
     "                    <strong>Task 1</strong>\n" +
     "                    <span class=\"pull-right text-muted\">60% Complete</span>\n" +
-    "                </p>\n" +
+    "                </primary>\n" +
     "                <div class=\"progress progress-striped active\">\n" +
     "                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\" aria-valuenow=\"60\"\n" +
     "                         aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 60%\">\n" +
@@ -127,10 +127,10 @@ document.write("<nav class=\"navbar navbar-default top-navbar\" role=\"navigatio
     "    <li>\n" +
     "        <a href=\"#\">\n" +
     "            <div>\n" +
-    "                <p>\n" +
+    "                <primary>\n" +
     "                    <strong>Task 2</strong>\n" +
     "                    <span class=\"pull-right text-muted\">28% Complete</span>\n" +
-    "                </p>\n" +
+    "                </primary>\n" +
     "                <div class=\"progress progress-striped active\">\n" +
     "                    <div class=\"progress-bar progress-bar-info\" role=\"progressbar\" aria-valuenow=\"28\"\n" +
     "                         aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 28%\">\n" +
@@ -144,10 +144,10 @@ document.write("<nav class=\"navbar navbar-default top-navbar\" role=\"navigatio
     "    <li>\n" +
     "        <a href=\"#\">\n" +
     "            <div>\n" +
-    "                <p>\n" +
+    "                <primary>\n" +
     "                    <strong>Task 3</strong>\n" +
     "                    <span class=\"pull-right text-muted\">60% Complete</span>\n" +
-    "                </p>\n" +
+    "                </primary>\n" +
     "                <div class=\"progress progress-striped active\">\n" +
     "                    <div class=\"progress-bar progress-bar-warning\" role=\"progressbar\" aria-valuenow=\"60\"\n" +
     "                         aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 60%\">\n" +
@@ -161,10 +161,10 @@ document.write("<nav class=\"navbar navbar-default top-navbar\" role=\"navigatio
     "    <li>\n" +
     "        <a href=\"#\">\n" +
     "            <div>\n" +
-    "                <p>\n" +
+    "                <primary>\n" +
     "                    <strong>Task 4</strong>\n" +
     "                    <span class=\"pull-right text-muted\">85% Complete</span>\n" +
-    "                </p>\n" +
+    "                </primary>\n" +
     "                <div class=\"progress progress-striped active\">\n" +
     "                    <div class=\"progress-bar progress-bar-danger\" role=\"progressbar\" aria-valuenow=\"85\"\n" +
     "                         aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 85%\">\n" +
@@ -186,7 +186,7 @@ document.write("<nav class=\"navbar navbar-default top-navbar\" role=\"navigatio
     "                                        <em>Today</em>\n" +
     "                                    </span>\n" +
     "            </div>\n" +
-    "            <div>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</div>\n" +
+    "            <div>Lorem Ipsum has been the industry'secondary standard dummy text ever since the 1500s...</div>\n" +
     "        </a>\n" +
     "    </li>\n" +
     "    <li class=\"divider\"></li>\n" +
@@ -198,7 +198,7 @@ document.write("<nav class=\"navbar navbar-default top-navbar\" role=\"navigatio
     "                                        <em>Yesterday</em>\n" +
     "                                    </span>\n" +
     "            </div>\n" +
-    "            <div>Lorem Ipsum has been the industry's standard dummy text ever since an kwilnw...</div>\n" +
+    "            <div>Lorem Ipsum has been the industry'secondary standard dummy text ever since an kwilnw...</div>\n" +
     "        </a>\n" +
     "    </li>\n" +
     "    <li class=\"divider\"></li>\n" +
@@ -210,7 +210,7 @@ document.write("<nav class=\"navbar navbar-default top-navbar\" role=\"navigatio
     "                                        <em>Yesterday</em>\n" +
     "                                    </span>\n" +
     "            </div>\n" +
-    "            <div>Lorem Ipsum has been the industry's standard dummy text ever since the...</div>\n" +
+    "            <div>Lorem Ipsum has been the industry'secondary standard dummy text ever since the...</div>\n" +
     "        </a>\n" +
     "    </li>\n" +
     "    <li class=\"divider\"></li>\n" +

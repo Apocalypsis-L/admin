@@ -1,6 +1,6 @@
 package cn.vsteam.admin.usermanager.controller;
 
-import cn.vsteam.admin.s.entity.User;
+import cn.vsteam.admin.secondary.entity.User;
 import cn.vsteam.admin.usermanager.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -17,8 +17,28 @@ NIO框架
 TCP、UDP文件传输支持
 
 
-WSO2,SOA面向服务架构，WebService,springmvc,hibernate,jdbc
+WSO2,SOA面向服务架构，WebService,SpringMvc,Hibernate,JDBC
+ERP,OA,HR,MES系统集成，为子公司提供数据服务
 
-springmvc,spring-aop,hibernate,redis,mysql,jdbc,RESTFul,nginx负载均衡
+SpringMvc,Spring-aop,Hibernate,Redis,MySQL,JDBC,RESTFul,nginx负载均衡
 
-spring boot,spring boot data jpa,spring security,thymeleaf,jquery,ajax
+Spring Boot,Spring boot data jpa,Spring Security,Thymeleaf,JQuery,ajax
+项目搭建
+数据库:
+    mysql
+基本模块：
+    用户权限（Spring Security）
+报表：
+    用户活跃度；
+    硬件记步（easyUI-dataGrid，ajax）；
+
+Spring MVC,Spring Boot,
+Sping Data Jpa,Hibernate,JDBC,MySQL
+Redis
+JQuery,ajax
+nginx,Docker
+
+制造业，主要生产显示器、电视机
+信息部门主要提供内部系统的开发运维，以及各个大系统之间的集成
+
+内置芯片的球鞋和足球，硬件用于记录个人运动数据（跑动、触球等），APP

@@ -1,10 +1,10 @@
 package cn.vsteam.admin.report.controller;
 
-import cn.vsteam.admin.p.service.StatisticsService;
+import cn.vsteam.admin.primary.service.StatisticsService;
 import cn.vsteam.admin.report.pojo.UserLoginPojo;
 import cn.vsteam.admin.report.service.ReportService;
 import cn.vsteam.admin.report.service.UserLoginService;
-import cn.vsteam.admin.s.entity.Report;
+import cn.vsteam.admin.secondary.entity.Report;
 import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

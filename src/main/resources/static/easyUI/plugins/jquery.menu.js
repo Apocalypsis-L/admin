@@ -10,7 +10,7 @@
 (function($){
 $(function(){
 $(document).unbind(".menu").bind("mousedown.menu",function(e){
-var m=$(e.target).closest("div.menu,div.combo-p");
+var m=$(e.target).closest("div.menu,div.combo-primary");
 if(m.length){
 return;
 }

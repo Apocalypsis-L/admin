@@ -21,7 +21,7 @@ import java.util.Map;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "entityManagerFactorySecondary",
         transactionManagerRef = "transactionManagerSecondary",
-        basePackages = {"cn.vsteam.admin.s"}) //设置Repository所在位置
+        basePackages = {"cn.vsteam.admin.secondary"}) //设置Repository所在位置
 public class SecondaryConfig {
 
     @Autowired
@@ -40,7 +40,7 @@ public class SecondaryConfig {
         return builder
                 .dataSource(secondaryDataSource)
                 .properties(getVendorProperties(secondaryDataSource))
-                .packages("cn.vsteam.admin.s") //设置实体类所在位置
+                .packages("cn.vsteam.admin.secondary") //设置实体类所在位置
                 .persistenceUnit("secondaryPersistenceUnit")
                 .build();
     }

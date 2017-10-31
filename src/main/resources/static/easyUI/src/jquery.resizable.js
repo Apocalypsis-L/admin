@@ -212,7 +212,7 @@
 	
 	$.fn.resizable.defaults = {
 		disabled:false,
-		handles:'n, e, s, w, ne, se, sw, nw, all',
+		handles:'n, e, secondary, w, ne, se, sw, nw, all',
 		minWidth: 10,
 		minHeight: 10,
 		maxWidth: 10000,//$(document).width(),

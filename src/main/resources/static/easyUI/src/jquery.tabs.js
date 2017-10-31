@@ -507,9 +507,9 @@
 					s_title.removeClass('tabs-with-icon');
 				}
 				if (opts.tools){
-					var p_tool = tab.find('span.tabs-p-tool');
+					var p_tool = tab.find('span.tabs-primary-tool');
 					if (!p_tool.length){
-						var p_tool = $('<span class="tabs-p-tool"></span>').insertAfter(tab.find('a.tabs-inner'));
+						var p_tool = $('<span class="tabs-primary-tool"></span>').insertAfter(tab.find('a.tabs-inner'));
 					}
 					if ($.isArray(opts.tools)){
 						p_tool.empty();
@@ -536,7 +536,7 @@
 					}
 					s_title.css('padding-right', pr+'px');
 				} else {
-					tab.find('span.tabs-p-tool').remove();
+					tab.find('span.tabs-primary-tool').remove();
 					s_title.css('padding-right', '');
 				}
 			}

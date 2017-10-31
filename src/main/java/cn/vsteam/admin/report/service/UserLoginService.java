@@ -1,7 +1,7 @@
 package cn.vsteam.admin.report.service;
 
 import cn.vsteam.admin.report.pojo.UserLoginPojo;
-import cn.vsteam.admin.p.dao.UserLoginDAO;
+import cn.vsteam.admin.primary.dao.UserLoginDAO;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;

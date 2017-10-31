@@ -10,12 +10,12 @@
 (function($){
 $(function(){
 $(document).unbind(".combo").bind("mousedown.combo mousewheel.combo",function(e){
-var p=$(e.target).closest("span.combo,div.combo-p,div.menu");
+var p=$(e.target).closest("span.combo,div.combo-primary,div.menu");
 if(p.length){
 _1(p);
 return;
 }
-$("body>div.combo-p>div.combo-panel:visible").panel("close");
+$("body>div.combo-primary>div.combo-panel:visible").panel("close");
 });
 });
 function _2(_3){
@@ -23,7 +23,7 @@ var _4=$.data(_3,"combo");
 var _5=_4.options;
 if(!_4.panel){
 _4.panel=$("<div class=\"combo-panel\"></div>").appendTo("body");
-_4.panel.panel({minWidth:_5.panelMinWidth,maxWidth:_5.panelMaxWidth,minHeight:_5.panelMinHeight,maxHeight:_5.panelMaxHeight,doSize:false,closed:true,cls:"combo-p",style:{position:"absolute",zIndex:10},onOpen:function(){
+_4.panel.panel({minWidth:_5.panelMinWidth,maxWidth:_5.panelMaxWidth,minHeight:_5.panelMinHeight,maxHeight:_5.panelMaxHeight,doSize:false,closed:true,cls:"combo-primary",style:{position:"absolute",zIndex:10},onOpen:function(){
 var _6=$(this).panel("options").comboTarget;
 var _7=$.data(_6,"combo");
 if(_7){
@@ -72,7 +72,7 @@ if(_12!=_10){
 $(_10).combo("showPanel");
 }
 }else{
-var p=$(_10).closest("div.combo-p").children(".combo-panel");
+var p=$(_10).closest("div.combo-primary").children(".combo-panel");
 $("div.combo-panel:visible").not(_11).not(p).panel("close");
 $(_10).combo("showPanel");
 }
@@ -93,7 +93,7 @@ var _18=_17.options;
 if(!_18.editable){
 _f(_16);
 }else{
-var p=$(_16).closest("div.combo-p").children(".combo-panel");
+var p=$(_16).closest("div.combo-primary").children(".combo-panel");
 $("div.combo-panel:visible").not(p).each(function(){
 var _19=$(this).combo("combo");
 if(_19!=_16){

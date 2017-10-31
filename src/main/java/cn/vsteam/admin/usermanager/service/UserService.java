@@ -1,7 +1,7 @@
 package cn.vsteam.admin.usermanager.service;
 
-import cn.vsteam.admin.s.dao.UserDAO;
-import cn.vsteam.admin.s.entity.User;
+import cn.vsteam.admin.secondary.dao.UserDAO;
+import cn.vsteam.admin.secondary.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.security.core.userdetails.UserDetails;
 //import org.springframework.security.core.userdetails.UserDetailsService;

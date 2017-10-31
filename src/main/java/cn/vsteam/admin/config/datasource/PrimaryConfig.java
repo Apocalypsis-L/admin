@@ -22,7 +22,7 @@ import java.util.Map;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "entityManagerFactoryPrimary",
         transactionManagerRef = "transactionManagerPrimary",
-        basePackages = {"cn.vsteam.admin.p"}) //设置Repository所在位置
+        basePackages = {"cn.vsteam.admin.primary"}) //设置Repository所在位置
 public class PrimaryConfig {
 
     @Autowired
@@ -43,7 +43,7 @@ public class PrimaryConfig {
         return builder
                 .dataSource(primaryDataSource)
                 .properties(getVendorProperties(primaryDataSource))
-                .packages("cn.vsteam.admin.p") //设置实体类所在位置
+                .packages("cn.vsteam.admin.primary") //设置实体类所在位置
                 .persistenceUnit("primaryPersistenceUnit")
                 .build();
     }

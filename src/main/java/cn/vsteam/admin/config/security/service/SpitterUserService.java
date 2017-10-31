@@ -1,7 +1,7 @@
 package cn.vsteam.admin.config.security.service;
 
 import cn.vsteam.admin.config.security.entity.MUserDetails;
-import cn.vsteam.admin.s.entity.User;
+import cn.vsteam.admin.secondary.entity.User;
 import cn.vsteam.admin.usermanager.service.PermissionService;
 import cn.vsteam.admin.usermanager.service.RoleService;
 import cn.vsteam.admin.usermanager.service.UserService;

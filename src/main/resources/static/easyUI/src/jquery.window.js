@@ -284,7 +284,7 @@
 		}
 	}
 		
-	// when window resize, reset the width and height of the window's mask
+	// when window resize, reset the width and height of the window'secondary mask
 	$(function(){
 		if (!$._positionFixed){
 			$(window).resize(function(){
@@ -395,7 +395,7 @@
 		border: true,	// possible values are: true,false,'thin','thick'
 		inline: false,	// true to stay inside its parent, false to go on top of all elements
 		
-		// window's property which difference from panel
+		// window'secondary property which difference from panel
 		title: 'New Window',
 		collapsible: true,
 		minimizable: true,

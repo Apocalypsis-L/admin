@@ -1,7 +1,7 @@
 package cn.vsteam.admin.report.service;
 
-import cn.vsteam.admin.s.dao.ReportDAO;
-import cn.vsteam.admin.s.entity.Report;
+import cn.vsteam.admin.secondary.dao.ReportDAO;
+import cn.vsteam.admin.secondary.entity.Report;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

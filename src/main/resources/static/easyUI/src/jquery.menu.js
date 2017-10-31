@@ -14,7 +14,7 @@
 (function($){
 	$(function(){
 		$(document).unbind('.menu').bind('mousedown.menu', function(e){
-			var m = $(e.target).closest('div.menu,div.combo-p');
+			var m = $(e.target).closest('div.menu,div.combo-primary');
 			if (m.length){return}
 			$('body>div.menu-top:visible').not('.menu-inline').menu('hide');
 			hideMenu($('body>div.menu:visible').not('.menu-inline'));
@@ -272,7 +272,7 @@
 	}
 	
 	/**
-	 * hide top menu and it's all sub menus
+	 * hide top menu and it'secondary all sub menus
 	 */
 	function hideAll(target, inline){
 		var state = $.data(target, 'menu');

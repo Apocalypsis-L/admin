@@ -1,7 +1,7 @@
 package cn.vsteam.admin.report.controller;
 
-import cn.vsteam.admin.p.service.StatisticsService;
-import cn.vsteam.admin.p.entity.StatisticsPlayer;
+import cn.vsteam.admin.primary.service.StatisticsService;
+import cn.vsteam.admin.primary.entity.StatisticsPlayer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

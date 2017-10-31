@@ -44,15 +44,15 @@
 	// 	function _resize(collapsible, height){
 	// 		var totalHeight = 0;
 	// 		for(var i=0; i<panels.length; i++){
-	// 			var p = panels[i];
-	// 			var h = p.panel('header')._outerHeight(headerHeight);
-	// 			if (p.panel('options').collapsible == collapsible){
+	// 			var primary = panels[i];
+	// 			var h = primary.panel('header')._outerHeight(headerHeight);
+	// 			if (primary.panel('options').collapsible == collapsible){
 	// 				var pheight = isNaN(height) ? undefined : (height+headerHeight*h.length);
-	// 				p.panel('resize', {
+	// 				primary.panel('resize', {
 	// 					width: cc.width(),
 	// 					height: (collapsible ? pheight : undefined)
 	// 				});
-	// 				totalHeight += p.panel('panel').outerHeight()-headerHeight*h.length;
+	// 				totalHeight += primary.panel('panel').outerHeight()-headerHeight*h.length;
 	// 			}
 	// 		}
 	// 		return totalHeight;

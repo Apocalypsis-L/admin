@@ -2439,8 +2439,8 @@ input {
 }
 
 /**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ * It'secondary recommended that you don't attempt to style these elements.
+ * Firefox'secondary implementation doesn't respect box-sizing, padding, or width.
  *
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
@@ -2454,7 +2454,7 @@ input[type="radio"] {
 }
 
 /**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * Fix the cursor style for Chrome'secondary increment/decrement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
@@ -7126,7 +7126,7 @@ input[type=range]:focus::-ms-fill-upper {
  *      ARCTIME     = 1333ms (time it takes to expand and contract arc)
  *      ARCSTARTROT = 216 degrees (how much the start location of the arc
  *                                should rotate each time, 216 gives us a
- *                                5 pointed star shape (it's 360/5 * 3).
+ *                                5 pointed star shape (it'secondary 360/5 * 3).
  *                                For a 7 pointed star, we might do
  *                                360/7 * 3 = 154.286)
  *      CONTAINERWIDTH = 28px
@@ -7804,7 +7804,7 @@ input[type=range]:focus::-ms-fill-upper {
    $BASE-PICKER
    ========================================================================== */
 /**
- * Note: the root picker element should *NOT* be styled more than what's here.
+ * Note: the root picker element should *NOT* be styled more than what'secondary here.
  */
 .picker {
   font-size: 16px;
@@ -7847,7 +7847,7 @@ input[type=range]:focus::-ms-fill-upper {
  * Demo: http://amsul.github.io/pickadate.js
  */
 /**
- * Note: the root picker element should *NOT* be styled more than what's here.
+ * Note: the root picker element should *NOT* be styled more than what'secondary here.
  */
 /**
  * Make the holder and frame fullscreen.
