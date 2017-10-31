@@ -28,7 +28,7 @@ var thychart = {
       var $el = $(document.createElementNS('http://www.w3.org/2000/svg', tag));
       var $g = $(document.createElementNS('http://www.w3.org/2000/svg', "g"));
 
-      var $rep = $('<li><i></i><p></p></li>');
+      var $rep = $('<li><i></i><primary></primary></li>');
           $rep.find("p").html(title+": " + val);
           $rep.find("i").css({background: fill});
 
@@ -183,7 +183,7 @@ var thychart = {
         val      = parseFloat(val).toFixed(2)*c;
     var $temp    = $('<div></div>').addClass("pie spinner");
 
-    var $title   = $("<h2><p></p><span></span></h2>");
+    var $title   = $("<h2><primary></primary><span></span></h2>");
         $title.find("p").text(val/360*100);
         $title.find("span").text(title);
 

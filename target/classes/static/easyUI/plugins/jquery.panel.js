@@ -255,7 +255,7 @@ $(this).combo("destroy");
 t.find(".m-btn").each(function(){
 $(this).menubutton("destroy");
 });
-t.find(".s-btn").each(function(){
+t.find(".secondary-btn").each(function(){
 $(this).splitbutton("destroy");
 });
 t.find(".tooltip-f").each(function(){

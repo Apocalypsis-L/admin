@@ -407,9 +407,9 @@ _58.addClass(_55.iconCls);
 _57.removeClass("tabs-with-icon");
 }
 if(_55.tools){
-var _59=tab.find("span.tabs-p-tool");
+var _59=tab.find("span.tabs-primary-tool");
 if(!_59.length){
-var _59=$("<span class=\"tabs-p-tool\"></span>").insertAfter(tab.find("a.tabs-inner"));
+var _59=$("<span class=\"tabs-primary-tool\"></span>").insertAfter(tab.find("a.tabs-inner"));
 }
 if($.isArray(_55.tools)){
 _59.empty();
@@ -438,7 +438,7 @@ _59.css("right","5px");
 }
 _57.css("padding-right",pr+"px");
 }else{
-tab.find("span.tabs-p-tool").remove();
+tab.find("span.tabs-primary-tool").remove();
 _57.css("padding-right","");
 }
 }

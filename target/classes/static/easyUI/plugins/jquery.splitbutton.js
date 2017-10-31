@@ -44,6 +44,6 @@ $.fn.splitbutton.parseOptions=function(_a){
 var t=$(_a);
 return $.extend({},$.fn.linkbutton.parseOptions(_a),$.parser.parseOptions(_a,["menu",{plain:"boolean",duration:"number"}]));
 };
-$.fn.splitbutton.defaults=$.extend({},$.fn.linkbutton.defaults,{plain:true,menu:null,duration:100,cls:{btn1:"m-btn-active s-btn-active",btn2:"m-btn-plain-active s-btn-plain-active",arrow:"m-btn-downarrow",trigger:"m-btn-line"}});
+$.fn.splitbutton.defaults=$.extend({},$.fn.linkbutton.defaults,{plain:true,menu:null,duration:100,cls:{btn1:"m-btn-active secondary-btn-active",btn2:"m-btn-plain-active secondary-btn-plain-active",arrow:"m-btn-downarrow",trigger:"m-btn-line"}});
 })(jQuery);
 

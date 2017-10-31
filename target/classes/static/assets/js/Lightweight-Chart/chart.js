@@ -23,7 +23,7 @@
      var val      = parseFloat(val).toFixed(2)*c;
      var $temp    = $('<div></div>').addClass("pie spinner");
 
-     var $title   = $("<h2><p></p><span></span></h2>");
+     var $title   = $("<h2><primary></primary><span></span></h2>");
          $title.find("p").text(val/360*100);
          $title.find("span").text(title);
 

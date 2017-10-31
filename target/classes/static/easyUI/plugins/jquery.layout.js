@@ -252,7 +252,7 @@ $(this).unbind(".layout").bind("mouseleave.layout",{region:_3b},function(e){
 if(_1==true){
 return;
 }
-if($("body>div.combo-p>div.combo-panel:visible").length){
+if($("body>div.combo-primary>div.combo-panel:visible").length){
 return;
 }
 _39(_3a,e.data.region);

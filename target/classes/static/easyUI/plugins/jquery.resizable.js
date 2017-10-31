@@ -164,7 +164,7 @@ $.fn.resizable.parseOptions=function(_1a){
 var t=$(_1a);
 return $.extend({},$.parser.parseOptions(_1a,["handles",{minWidth:"number",minHeight:"number",maxWidth:"number",maxHeight:"number",edge:"number"}]),{disabled:(t.attr("disabled")?true:undefined)});
 };
-$.fn.resizable.defaults={disabled:false,handles:"n, e, s, w, ne, se, sw, nw, all",minWidth:10,minHeight:10,maxWidth:10000,maxHeight:10000,edge:5,onStartResize:function(e){
+$.fn.resizable.defaults={disabled:false,handles:"n, e, secondary, w, ne, se, sw, nw, all",minWidth:10,minHeight:10,maxWidth:10000,maxHeight:10000,edge:5,onStartResize:function(e){
 },onResize:function(e){
 },onStopResize:function(e){
 }};

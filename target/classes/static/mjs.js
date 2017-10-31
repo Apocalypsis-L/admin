@@ -23,15 +23,15 @@ $(function () {
             })
             // for (var obj in list) {
             //     alert(obj);
-            //     var $p = $("<p></p>");
-            //     $p.innerHTML = obj;
-            //     $("#div1").append($p);
+            //     var $primary = $("<primary></primary>");
+            //     $primary.innerHTML = obj;
+            //     $("#div1").append($primary);
             // }
             // forEach(obj:list)
             // {
-            //     var $p = $("<p></p>");
-            //     $p.innerHTML =
-            //     $("#div1").append($p);
+            //     var $primary = $("<primary></primary>");
+            //     $primary.innerHTML =
+            //     $("#div1").append($primary);
             // }
             // alert(result);
             // $("#in1").val(result);
