@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.sql.Timestamp;
 
 @Entity
-@Table(name = "football_team_game", schema = "vsteam_db", catalog = "")
+@Table(name = "football_team_game", schema = "vsteam_db")
 public class Game {
     private long id;
     private long teamId;

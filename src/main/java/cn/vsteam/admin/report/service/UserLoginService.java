@@ -20,7 +20,7 @@ public class UserLoginService {
     public List<UserLoginPojo> findLoginCount() throws JSONException {
         List<Object> resultList = userLoginDAO.findLoginCount();
         JSONArray jsonArray = new JSONArray(resultList);
-        JSONArray objArray = new JSONArray();
+        JSONArray objArray;
         List<UserLoginPojo> pojoList = new ArrayList<>();
         for (int i = 0, length = jsonArray.length(); i < length; i++) {
             objArray = (JSONArray) jsonArray.get(i);

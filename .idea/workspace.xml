@@ -1,105 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25ae72a8-d5d0-4dcc-a328-b756dceebf8a" name="Default" comment="20171030">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode/BaseClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode/ListNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/main.js" />
+    <list default="true" id="25ae72a8-d5d0-4dcc-a328-b756dceebf8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Readme" afterPath="$PROJECT_DIR$/src/Readme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/datasource/PrimaryConfig.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/datasource/PrimaryConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/datasource/SecondaryConfig.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/datasource/SecondaryConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/security/service/SpitterUserService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/security/service/SpitterUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/controller/ReportAjaxController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/controller/ReportAjaxController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/controller/ReportController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/controller/ReportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/service/ReportService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/service/ReportService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Game.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/service/UserLoginService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/service/UserLoginService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/service/PermissionService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/service/PermissionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/service/RolePermissionService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/service/RolePermissionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/service/RoleService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/service/RoleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/service/UserRoleService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/service/UserRoleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/usermanager/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/utils/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/utils/Constant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/utils/upload/ExcelUtil.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/utils/upload/ExcelUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/Lightweight-Chart/chart.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/Lightweight-Chart/chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/Lightweight-Chart/jquery.chart.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/Lightweight-Chart/jquery.chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/Lightweight-Chart/jquery.chart.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/Lightweight-Chart/jquery.chart.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/chart.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/chart.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/dataTables/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/dataTables/dataTables.bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/dataTables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/dataTables/jquery.dataTables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery-1.10.2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/morris/raphael-2.1.0.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/morris/raphael-2.1.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/materialize/css/materialize.css" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/materialize/css/materialize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/materialize/js/materialize.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/materialize/js/materialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/assets/materialize/js/materialize.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/materialize/js/materialize.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/jquery.easyui.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/jquery.easyui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/locale/easyui-lang-fr.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/locale/easyui-lang-fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.combo.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.combo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.layout.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.menu.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.messager.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.messager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.panel.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.panel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.resizable.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.resizable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.splitbutton.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.splitbutton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.tabs.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/plugins/jquery.tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/src/jquery.accordion.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/src/jquery.accordion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/src/jquery.menu.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/src/jquery.menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/src/jquery.resizable.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/src/jquery.resizable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/src/jquery.tabs.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/src/jquery.tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/easyUI/src/jquery.window.js" afterPath="$PROJECT_DIR$/src/main/resources/static/easyUI/src/jquery.window.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/jquery.easyui.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/jquery.easyui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/mjs.js" afterPath="$PROJECT_DIR$/src/main/resources/static/mjs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/nav/navjs.js" afterPath="$PROJECT_DIR$/src/main/resources/static/nav/navjs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cn/vsteam/admin/AdminApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/cn/vsteam/admin/AdminApplicationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/ReadMe" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/ReadMe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/controller/PBaseController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/controller/PBaseController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/controller/StatisticsController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/controller/StatisticsController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/GameDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/dao/GameDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/InvitationDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/dao/InvitationDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/PUserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/dao/PUserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/PracticeDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/dao/PracticeDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/StatisticsDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/dao/StatisticsDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/TeamDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/dao/TeamDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/TokensDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/dao/TokensDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/UserLoginDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/dao/UserLoginDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/entity/Game.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Game.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/entity/Invitation.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Invitation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/entity/Practice.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Practice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/entity/StatisticsPlayer.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/StatisticsPlayer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/entity/Team.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Team.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/entity/Tokens.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Tokens.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/entity/UserLogin.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/UserLogin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/pojo/GamePojo.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/pojo/GamePojo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/pojo/PracticePojo.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/pojo/PracticePojo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/pojo/StatisticsPojo.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/pojo/StatisticsPojo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/pojo/StepContext.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/pojo/StepContext.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/service/GameService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/service/GameService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/service/InvitationService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/service/InvitationService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/service/PracticeService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/service/PracticeService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/service/StatisticsService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/service/StatisticsService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/service/TeamService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/service/TeamService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/service/TokensService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/service/TokensService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/service/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/Readme.txt" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/Readme.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/dao/PermissionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/dao/PermissionDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/dao/ReportDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/dao/ReportDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/dao/RoleDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/dao/RoleDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/dao/RolePermissionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/dao/RolePermissionDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/dao/UserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/dao/UserRoleDAO.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/dao/UserRoleDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/entity/Permission.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/entity/Permission.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/entity/Report.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/entity/Report.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/entity/Role.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/entity/Role.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/entity/RolePermission.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/entity/RolePermission.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/entity/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/s/entity/UserRole.java" afterPath="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/secondary/entity/UserRole.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -146,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/BaseClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,11 +83,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecondaryConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecondaryConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/datasource/SecondaryConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            <state relative-caret-position="308">
+              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpitterUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/security/service/SpitterUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/utils/upload/ExcelUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="290" column="9" lean-forward="true" selection-start-line="290" selection-start-column="9" selection-end-line="290" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#writeExcel#0;class#ExcelUtil#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <element signature="e#1720#1721#0" expanded="true" />
+                <element signature="e#1766#1767#0" expanded="true" />
+                <element signature="e#2612#2613#0" expanded="true" />
+                <element signature="e#2666#2667#0" expanded="true" />
+                <element signature="e#7941#7942#0" expanded="true" />
+                <element signature="e#7974#7975#0" expanded="true" />
+                <element signature="e#8029#8030#0" expanded="true" />
+                <element signature="e#8073#8074#0" expanded="true" />
+                <element signature="e#8245#8246#0" expanded="true" />
+                <element signature="e#8289#8290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatisticsPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/StatisticsPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+              <folding>
+                <element signature="e#7152#7153#0" expanded="true" />
+                <element signature="e#7324#7325#0" expanded="true" />
+                <element signature="e#7368#7369#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLoginService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/service/UserLoginService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -192,16 +166,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1426">
-              <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -268,9 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/service/StatisticsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/StatisticsDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/GameDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/service/GameService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/dao/PracticeDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/p/service/PracticeService.java" />
@@ -319,6 +280,9 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/datasource/PrimaryConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/datasource/SecondaryConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/security/service/SpitterUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/service/UserLoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Game.java" />
       </list>
     </option>
   </component>
@@ -341,9 +305,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="349" />
-    <option name="width" value="1579" />
-    <option name="height" value="1047" />
+    <option name="x" value="707" />
+    <option name="width" value="1221" />
+    <option name="height" value="961" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -414,7 +378,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="admin" type="b2602c69:ProjectViewProjectNode" />
@@ -423,7 +387,9 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="primary" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="admin" type="b2602c69:ProjectViewProjectNode" />
@@ -702,8 +668,16 @@
       <workItem from="1509090932722" duration="1548000" />
       <workItem from="1509325612201" duration="12361000" />
       <workItem from="1509361813412" duration="118000" />
-      <workItem from="1509417815451" duration="151000" />
+      <workItem from="1509417815451" duration="1651000" />
     </task>
+    <task id="LOCAL-00001" summary="DataSource package renamed">
+      <created>1509418267470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509418267470</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -739,13 +713,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296999000" />
+    <option name="totallyTimeSpent" value="298499000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="349" y="0" width="1579" height="1047" extended-state="0" />
+    <frame x="707" y="0" width="1221" height="961" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36286408" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30186608" sideWeight="0.50437635" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -757,6 +731,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28898582" sideWeight="0.49562362" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -766,7 +741,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2959927" sideWeight="0.51309705" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.361422" sideWeight="0.48690292" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39621016" sideWeight="0.48690292" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32527474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -775,7 +750,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30877572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
     </layout>
@@ -824,7 +798,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20171030" />
-    <option name="LAST_COMMIT_MESSAGE" value="20171030" />
+    <MESSAGE value="DataSource package renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataSource package renamed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -851,34 +826,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.7.3.RELEASE/spring-rabbit-1.7.3.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/Queue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/LoggerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="381" column="24" lean-forward="false" selection-start-line="381" selection-start-column="18" selection-end-line="381" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/1.7.3.RELEASE/spring-rabbit-1.7.3.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="428" column="0" lean-forward="false" selection-start-line="428" selection-start-column="0" selection-end-line="428" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="478" column="0" lean-forward="false" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -933,13 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1048,17 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/utils/upload/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="355" column="13" lean-forward="false" selection-start-line="355" selection-start-column="13" selection-end-line="355" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#writeExcel#0;class#ExcelUtil#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1184,14 +1113,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/datasource/DataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1222,18 +1143,92 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/datasource/SecondaryConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="308">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/config/security/service/SpitterUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/report/service/UserLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/utils/upload/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="290" column="9" lean-forward="true" selection-start-line="290" selection-start-column="9" selection-end-line="290" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#writeExcel#0;class#ExcelUtil#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/StatisticsPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+          <folding>
+            <element signature="e#7152#7153#0" expanded="true" />
+            <element signature="e#7324#7325#0" expanded="true" />
+            <element signature="e#7368#7369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/vsteam/admin/primary/entity/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#2612#2613#0" expanded="true" />
+            <element signature="e#2666#2667#0" expanded="true" />
+            <element signature="e#7941#7942#0" expanded="true" />
+            <element signature="e#7974#7975#0" expanded="true" />
+            <element signature="e#8029#8030#0" expanded="true" />
+            <element signature="e#8073#8074#0" expanded="true" />
+            <element signature="e#8245#8246#0" expanded="true" />
+            <element signature="e#8289#8290#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

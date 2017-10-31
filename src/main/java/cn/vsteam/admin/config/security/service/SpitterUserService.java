@@ -5,8 +5,6 @@ import cn.vsteam.admin.secondary.entity.User;
 import cn.vsteam.admin.usermanager.service.PermissionService;
 import cn.vsteam.admin.usermanager.service.RoleService;
 import cn.vsteam.admin.usermanager.service.UserService;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.security.core.GrantedAuthority;
@@ -25,7 +23,7 @@ import java.util.List;
 public class SpitterUserService implements UserDetailsService {
 
     private boolean enableAuthorities = true;//是否支持权限验证
-    private boolean enableGroups;//是否支持组
+    private boolean enableGroups = true;//是否支持组
 
     @Resource(name = "userService")
     UserService userService;
@@ -36,7 +34,7 @@ public class SpitterUserService implements UserDetailsService {
     @Autowired
     PermissionService permissionService;
 
-    private Log log = LogFactory.getLog(this.getClass().getName());
+//    private Log log = LogFactory.getLog(this.getClass().getName());
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException, DataAccessException {
