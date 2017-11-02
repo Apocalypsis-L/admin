@@ -52,8 +52,8 @@ function getUser(username) {
                 addTable(result, "user");
                 $("#user").datagrid({
                     onDblClickRow: function (rowIndex, rowData) {
-                        $("#UID").val(rowData.uid);
-                        showStatistics(rowData.uid);
+                        $("#UID").val(rowData.id);
+                        showStatistics(rowData.id);
                     }
                 })
 
@@ -63,7 +63,7 @@ function getUser(username) {
                     list = list["rows"];
                     $.each(list, function (key, value) {
                         if (value.username.indexOf(username) > -1
-                            || value.uid.toString().indexOf(username) > -1
+                            || value.id.toString().indexOf(username) > -1
                             || value.nickname.indexOf(username) > -1) {
                             list2.push(value);
                         }
@@ -75,14 +75,14 @@ function getUser(username) {
     )
 }
 
-function showStatistics(uid) {
+function showStatistics(id) {
     $.ajax({
         type: "get",
         url: "/statistics/findByUserId",
         dataType: "json",
         headers: {
             'X-CSRF-TOKEN': token,
-            'userId': uid
+            'userId': id
         },
         error: function () {
             alert("error");
@@ -90,11 +90,11 @@ function showStatistics(uid) {
         success: function (result) {
             $("#mdiv").empty();
             if ($("#pathStatistics").length > 0) {
-                $("#pathStatistics").text("/" + uid);
+                $("#pathStatistics").text("/" + id);
                 $("#pathStatistics").nextAll().remove();
             }
             else {
-                $("#pathDiv").append("<a id='pathStatistics' onclick='showStatistics($(\"#UID\").val());'>/" + uid + "</a>");
+                $("#pathDiv").append("<a id='pathStatistics' onclick='showStatistics($(\"#UID\").val());'>/" + id + "</a>");
             }
             var game = result["game"];
             $.each(game, function (key, value) {

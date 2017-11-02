@@ -15,16 +15,16 @@ spring:
       driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: none
-    show-sql: false
-  rabbitmq:
-    host: 192.168.126.128
-    port: 5672
-    virtual-host: /
-    username: root
-    password: root
-    addresses: 192.168.126.128:5672
-    publisher-confirms: true
+      ddl-auto: update
+    show-sql: true
+#  rabbitmq:
+#    host: 192.168.126.128
+#    port: 5672
+#    virtual-host: /
+#    username: root
+#    password: root
+#    addresses: 192.168.126.128:5672
+#    publisher-confirms: true
   redis:
     host: 192.168.126.128
     port: 6379

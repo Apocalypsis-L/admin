@@ -30,8 +30,8 @@
     <script th:src="@{/report/js/long2date.js}"></script>
     <script src="../report/js/stepCount.js"></script>
 
-    <meta name="_csrf" th:content="${_csrf.token}" content=""/>
-    <meta name="_csrf_header" th:content="${_csrf.headerName}" content=""/>
+    <meta name="_csrf" content="${_csrf.token}"/>
+    <meta name="_csrf_header" content="${_csrf.headerName}"/>
     <title>记步表</title>
 
 </head>

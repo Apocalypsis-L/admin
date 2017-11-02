@@ -23,6 +23,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public void configure(WebSecurity web) throws Exception {
         //取消静态资源目录拦截
         web.ignoring().antMatchers("/assets/**", "/loginresource/**");
+        web.ignoring().antMatchers("/**");
     }
 
     @Override

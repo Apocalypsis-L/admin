@@ -54,4 +54,8 @@ public class SecondaryConfig {
         return new JpaTransactionManager(entityManagerFactorySecondary(builder).getObject());
     }
 
+//    @Bean(name = "transactionManagerSecondary")
+//    PlatformTransactionManager transactionManagerSecondary(@Qualifier("secondaryDataSource") DataSource secondaryDataSource) {
+//        return new DataSourceTransactionManager(secondaryDataSource);
+//    }
 }
